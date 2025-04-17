@@ -1,0 +1,128 @@
+/* Colores base */
+:root {
+    --verde-pastel: #c8f7c5;
+    --celeste-pastel: #cceeff;
+    --blanco: #ffffff;
+    --negro: #1a1a1a;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: var(--blanco);
+    color: var(--negro);
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: var(--celeste-pastel);
+    padding: 1rem 2rem;
+    text-align: center;
+    border-bottom: 2px solid var(--negro);
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--negro);
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: var(--verde-pastel);
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .intro {
+    background-color: var(--verde-pastel);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+  
+  .contenido {
+    background-color: var(--celeste-pastel);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: var(--verde-pastel);
+    color: var(--negro);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 2px solid var(--negro);
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .fade-in-delay-1 {
+    animation-delay: 0.3s;
+  }
+  
+  .fade-in-delay-2 {
+    animation-delay: 0.6s;
+  }
+  
+  .fade-in-delay-3 {
+    animation-delay: 0.9s;
+  }
+  .logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 70px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid var(--negro);
+  }
+  body {
+    background-image: url('abstract-computer-technology-background-with-circuit-board-and-circle-tech-illustration-vector.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--blanco); /* color de respaldo si la imagen no carga */
+    color: var(--negro);
+    line-height: 1.6;
+  }
+  
