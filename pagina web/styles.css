@@ -102,11 +102,19 @@
   .fade-in-delay-3 {
     animation-delay: 0.9s;
   }
+
   .logo-nav {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 1rem;
+  }
+
+  .logo-face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
   }
   
   .logo {
